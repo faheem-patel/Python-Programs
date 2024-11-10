@@ -1,0 +1,10 @@
+oprt1=int (input("Enter the first operator"))
+oprt2=int(input("Enter the second operator"))
+
+print("the addition of these two numbers is:   ",oprt1+oprt2)
+print("the subtraction of these two numbers is:   ",oprt1-oprt2)
+print("the multiplication of these two numbers is:   ",oprt1*oprt2)
+print("the division of these two numbers is:   ",oprt1/oprt2)
+print("the floor division of these two numbers is:   ",oprt1//oprt2)
+print("the power of these two numbers is:   ",oprt1**oprt2)
+print("the rimainder of these two numbers is:   ",oprt1%oprt2)
