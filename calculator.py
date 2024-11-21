@@ -1,5 +1,5 @@
-oprt1=int (input("Enter the first operator "))
-oprt2=int(input("Enter the second operator "))
+oprt1=float (input("Enter the first operator in decimal "))
+oprt2=float(input("Enter the second operator in decimal "))
 
 print("the addition of these two numbers is:   ",oprt1+oprt2)
 print("the subtraction of these two numbers is:   ",oprt1-oprt2)
