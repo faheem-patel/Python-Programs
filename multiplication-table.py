@@ -1,8 +1,10 @@
-num =int(input('Enter the number'))
+num =int(input('which number table you want to generate? '))
 
-# To take input from the user
-# num = int(input("Display multiplication table of? "))
+if num <10:
+    x=1
+    while x <= 10:
+        print(num," * ",x," = ",x*num)
+        x +=1
 
-# Iterate 10 times from i = 1 to 10
-for i in range(1, 11):
-    print(num, 'x', i, '=', num*i)
+elif num == 0:
+    print("You are MAD!!")
